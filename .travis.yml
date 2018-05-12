@@ -1,1 +1,4 @@
 language: elm
+install:
+  - elm-package install
+  - elm-make Todo.elm --output elm.js
