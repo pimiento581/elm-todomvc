@@ -212,7 +212,12 @@ view model =
             , lazy2 viewEntries model.visibility model.entries
             , lazy2 viewControls model.visibility model.entries
             ]
-        , infoFooter
+        , infoFooter ,
+        div [] [
+        i [ class "fas fa-user fa-3x" ] [],
+        i [ class "fas fa-user fa-3x" ] [],
+        i [ class "fas fa-user fa-3x" ] []
+        ]
         ]
 
 
